@@ -12,7 +12,7 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
     go build -ldflags="-s -w" -o efm_sub_api ./cmd/server/main.go
 
 # ================= Stage =================
-FROM alpine:3.18
+FROM alpine:3.22
 
 RUN apk add --no-cache ca-certificates tzdata
 
