@@ -1,0 +1,128 @@
+# ========== GO ==========
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+coverage.html
+*.prof
+efm_sub_api
+
+
+# ========== DEPENDENCIES ==========
+vendor/
+go.work
+go.work.sum
+
+# ========== ENVIRONMENT ==========
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ========== OS ==========
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========== LOGS ==========
+*.log
+logs/
+tmp/
+log/
+
+# ========== DOCKER ==========
+docker-compose.override.yml
+
+# ========== BUILD ==========
+builds/
+dist/
+bin/
+target/
+out/
+
+# ========== TESTING ==========
+test-results/
+coverage/
+.nyc_output/
+
+# ========== TEMPORARY ==========
+tmp/
+temp/
+.tmp/
+.temp/
+
+# ========== DATABASE ==========
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+postgres-data/
+
+# ========== REDIS ==========
+redis-data/
+dump.rdb
+
+# ========== RABBITMQ ==========
+rabbitmq-data/
+
+# ========== MONITORING ==========
+grafana-data/
+prometheus-data/
+jaeger-data/
+
+# ========== SECRETS ==========
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ========== BACKUP ==========
+*.bak
+*.backup
+*.old
+
+# ========== RUNTIME ==========
+*.pid
+*.sock
+*.socket
+
+# ========== CACHE ==========
+.cache/
+cache/
+*.cache
+
+# ========== SPECIFIC TO PROJECT ==========
+# Build artifacts
+builds/
+
+# Coverage files
+coverage.out
+coverage.html
+
+# Log files
+tmp/build-errors.log
+
+# Environment files
+.env

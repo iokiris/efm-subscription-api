@@ -1,0 +1,7 @@
+root = "/app"
+
+[build]
+bin = "./builds/effmob_app"
+cmd = "go build -o ./builds/effmob_app ./cmd/server/main.go"
+include_ext = ["go", "tpl", "tmpl", "html"]
+exclude_dir = ["assets", "tmp", "vendor"]
